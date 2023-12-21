@@ -102,7 +102,7 @@ def main():
         st.text("Linkedin:-")
         st.link_button("Linkedin","https://www.linkedin.com/in/soham-chakraborty-a07b471b0/")
         st.text("Github:-")
-        st.link_button("Github","https://www.linkedin.com/in/soham-chakraborty-a07b471b0/")
+        st.link_button("Github","https://github.com/Sohamcodesstuff/stream-master-to-do-app")
         st.text("Version:- 1.1")
 
 
