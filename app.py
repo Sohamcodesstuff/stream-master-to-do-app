@@ -41,9 +41,9 @@ def main():
         with st.expander("Task Status"):
             task_df = df["Status"].value_counts().to_frame()
             task_df = task_df.reset_index()
-            # st.dataframe(df)
-            p1 = px.pie(task_df,names='Status',values="count")
-            st.plotly_chart(p1)
+            #  st.dataframe(df)
+            # p1 = px.pie(task_df,names='Status',values="count")
+            # st.plotly_chart(p1)
 
     elif choice=="Update":
         st.subheader("Modify item")
